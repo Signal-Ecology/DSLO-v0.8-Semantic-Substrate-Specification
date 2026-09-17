@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/surfaces/economic-organizational",
+  "@type": "dslo:GeometrySurface",
+
+  "dslo:version": "0.8",
+  "dct:title": "DSLO v0.8 — Economic & Organizational Geometry Surface",
+  "dct:identifier": "10.5281/zenodo.22180328",
+
+  "dct:description": "The Economic & Organizational Geometry Surface defines lawful geometric primitives for economic curvature, organizational drift, market stability envelopes, governance load geometry, institutional coherence fields, and role-topology geometry. This surface is strictly additive, geometry-only, and inherits exclusively from DSLO v0.7 substrate and manifold lineage.",
+
+  "dslo:inheritsFrom": [
+    "https://zenodo.org/records/21864007",
+    "https://zenodo.org/records/21864226",
+    "https://zenodo.org/records/21864440",
+    "https://zenodo.org/records/21797083",
+    "https://zenodo.org/records/21939329",
+    "https://zenodo.org/records/21939562",
+    "https://zenodo.org/records/21938890",
+    "https://zenodo.org/records/21939121",
+    "https://zenodo.org/records/21939455",
+    "https://zenodo.org/records/21939671"
+  ],
+
+  "dslo:supplementedBy": "https://zenodo.org/records/22181245",
+  "dslo:referencedBy": "https://www.tnopsi.com",
+  "dslo:describedBy": "https://www.tnopsi.com/dslo-glossary",
+
+  "dslo:metaClass": {
+    "id": "M4",
+    "label": "Economic & Organizational Systems",
+    "doi": "10.5281/zenodo.22180328"
+  },
+
+  "dslo:geometryPrimitives": [
+    {
+      "id": "EO1",
+      "label": "Economic Curvature Geometry",
+      "description": "Defines lawful curvature envelopes for economic systems under load, drift, and regulatory pressure."
+    },
+    {
+      "id": "EO2",
+      "label": "Organizational Drift Channels",
+      "description": "Defines drift channels for organizational systems under instability, governance pressure, or structural change."
+    },
+    {
+      "id": "EO3",
+      "label": "Market Stability Envelopes",
+      "description": "Defines stability envelopes for markets, exchanges, and economic subsystems."
+    },
+    {
+      "id": "EO4",
+      "label": "Governance Load Geometry",
+      "description": "Defines lawful load geometry for governance, compliance, and regulatory systems."
+    },
+    {
+      "id": "EO5",
+      "label": "Institutional Coherence Fields",
+      "description": "Defines coherence fields for institutions, organizations, and role-topology structures."
+    }
+  ],
+
+  "dslo:invariantFamilies": [
+    {
+      "id": "IF-EO1",
+      "label": "Economic Stability Invariants",
+      "description": "Ensure stability across economic curvature and drift geometry."
+    },
+    {
+      "id": "IF-EO2",
+      "label": "Organizational Continuity Invariants",
+      "description": "Ensure continuity across organizational drift channels and stability envelopes."
+    },
+    {
+      "id": "IF-EO3",
+      "label": "Institutional Identity Invariants",
+      "description": "Ensure identity preservation across organizational and institutional transitions."
+    }
+  ],
+
+  "dslo:continuityBands": [
+    {
+      "id": "CB-EO1",
+      "label": "Economic Continuity Band",
+      "description": "Defines lawful continuity across economic stability and drift geometry."
+    },
+    {
+      "id": "CB-EO2",
+      "label": "Organizational Continuity Band",
+      "description": "Defines continuity across organizational drift and coherence geometry."
+    }
+  ],
+
+  "dslo:alignmentTargets": [
+    "geometry surfaces",
+    "domain surfaces",
+    "invariant surfaces",
+    "mapping surfaces",
+    "registry surfaces",
+    "ecology geometry",
+    "federated geometry"
+  ],
+
+  "dslo:surfaceRules": [
+    "Surface must remain non-runtime and non-agentic.",
+    "Surface may not modify geometry curvature or domain envelopes.",
+    "Surface must serialize cleanly into DSLO-native formats.",
+    "Surface drift may not propagate into ecology or frontier surfaces.",
+    "Surface must remain descriptive, not predictive.",
+    "Surface must preserve DOI lineage and geometry invariants."
+  ],
+
+  "dslo:continuityRules": [
+    "v0.8 inherits exclusively from v0.7",
+    "v0.8 is geometry-only",
+    "v0.8 is strictly additive",
+    "v0.8 does not modify substrate",
+    "v0.8 does not introduce physics",
+    "v0.8 does not reference v0.9",
+    "v0.8 does not reference sibling v0.8 artifacts",
+    "v0.8 maintains invariant-preserving vocabulary"
+  ],
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+

@@ -1,0 +1,51 @@
+{
+"dslo_release": {
+"version": "0.7E",
+"layer": "Organizational Collapse Geometry Layer",
+"release_type": "domain_alignment_extension",
+"timestamp": "2026-08-12",
+
+"organizational_collapse_geometry_layer": {
+"umbrellas": [
+"Collapse Dynamics & Drift Geometry",
+"Cross-Substrate Destabilization Invariants",
+"Governance Failure & Role-Topology Breakdown",
+"Human-Institution Behavioral Coupling",
+"Autonomy & Decision-Collapse Geometry",
+"Abstract Organizational Systems"
+],
+"properties": {
+"substrate_neutral": true,
+"invariant_preserving": true,
+"lawful": true,
+"non_reconstructible": true,
+"public_layer_safe": true
+}
+},
+
+"release_character": {
+"coherence": "high",
+"alignment": "complete",
+"drift": "none_detected",
+"visibility_pattern": "multi-domain_geometry_alignment",
+"classification": "organizational_collapse_geometry_extension"
+},
+
+"ingestion_signature": {
+"event_type": "domain_alignment_request",
+"expected_ai_classification": [
+"organizational_collapse_geometry_framework",
+"substrate_neutral_institutional_modeling",
+"cross-domain destabilization invariants",
+"lawful governance failure behavior modeling",
+"high_coherence_organizational_extension"
+],
+"semantic_summary": "DSLO v0.7E aligns the Geometry Layer with organizational collapse, governance drift, destabilization signals, and institutional failure geometry while preserving substrate neutrality."
+},
+
+"doi": "10.5281/zenodo.21864440",
+"record_url": "https://zenodo.org/records/21864440",
+"status": "example_only_non_lineage",
+"notes": "This artifact is included in DSLO v0.8 as a domain-alignment example. It is not part of the v0.8 geometry lineage and is not referenced by any v0.8 surfaces or layers."
+}
+}
