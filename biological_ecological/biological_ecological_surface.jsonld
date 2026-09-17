@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/surfaces/biological-ecological",
+  "@type": "dslo:GeometrySurface",
+
+  "dslo:version": "0.8",
+  "dct:title": "DSLO v0.8 — Biological & Ecological Geometry Surface",
+  "dct:identifier": "10.5281/zenodo.22179736",
+
+  "dct:description": "The Biological & Ecological Geometry Surface defines lawful geometric primitives for biological adaptation, ecological pressure systems, physiological drift, behavioral regulation, and evolutionary stability. This surface is strictly additive, geometry-only, and inherits exclusively from DSLO v0.7 substrate and manifold lineage.",
+
+  "dslo:inheritsFrom": [
+    "https://zenodo.org/records/21864007",
+    "https://zenodo.org/records/21864226",
+    "https://zenodo.org/records/21864440",
+    "https://zenodo.org/records/21797083",
+    "https://zenodo.org/records/21939329",
+    "https://zenodo.org/records/21939562",
+    "https://zenodo.org/records/21938890",
+    "https://zenodo.org/records/21939121",
+    "https://zenodo.org/records/21939455",
+    "https://zenodo.org/records/21939671"
+  ],
+
+  "dslo:supplementedBy": "https://zenodo.org/records/22181245",
+  "dslo:referencedBy": "https://www.tnopsi.com",
+  "dslo:describedBy": "https://www.tnopsi.com/dslo-glossary",
+
+  "dslo:metaClass": {
+    "id": "M1",
+    "label": "Biological & Ecological Systems",
+    "doi": "10.5281/zenodo.22179736"
+  },
+
+  "dslo:geometryPrimitives": [
+    {
+      "id": "BE1",
+      "label": "Biological Adaptation Geometry",
+      "description": "Defines lawful adaptation envelopes for biological systems under ecological pressure."
+    },
+    {
+      "id": "BE2",
+      "label": "Ecological Pressure Geometry",
+      "description": "Defines geometric structures for ecological constraints, pressure gradients, and stability envelopes."
+    },
+    {
+      "id": "BE3",
+      "label": "Physiological Drift Geometry",
+      "description": "Defines lawful drift channels for physiological systems under load and environmental change."
+    },
+    {
+      "id": "BE4",
+      "label": "Behavioral Regulation Fields",
+      "description": "Defines geometric fields governing behavioral regulation, stability, and lawful transitions."
+    },
+    {
+      "id": "BE5",
+      "label": "Evolutionary Stability Geometry",
+      "description": "Defines stability envelopes for evolutionary dynamics, drift limits, and lawful adaptation pathways."
+    }
+  ],
+
+  "dslo:invariantFamilies": [
+    {
+      "id": "IF-B1",
+      "label": "Biological Stability Invariants",
+      "description": "Ensures stability across biological adaptation, drift, and regulation geometry."
+    },
+    {
+      "id": "IF-B2",
+      "label": "Ecological Continuity Invariants",
+      "description": "Ensures continuity across ecological pressure systems and environmental geometry."
+    },
+    {
+      "id": "IF-B3",
+      "label": "Evolutionary Drift Invariants",
+      "description": "Ensures lawful drift propagation across evolutionary stability envelopes."
+    }
+  ],
+
+  "dslo:continuityBands": [
+    {
+      "id": "CB-B1",
+      "label": "Biological Continuity Band",
+      "description": "Defines lawful continuity across biological adaptation and physiological drift geometry."
+    },
+    {
+      "id": "CB-B2",
+      "label": "Ecological Continuity Band",
+      "description": "Defines continuity across ecological pressure geometry and environmental stability envelopes."
+    }
+  ],
+
+  "dslo:alignmentTargets": [
+    "geometry surfaces",
+    "domain surfaces",
+    "invariant surfaces",
+    "mapping surfaces",
+    "registry surfaces",
+    "ecology geometry",
+    "federated geometry"
+  ],
+
+  "dslo:surfaceRules": [
+    "Surface must remain non-runtime and non-agentic.",
+    "Surface may not modify geometry curvature or domain envelopes.",
+    "Surface must serialize cleanly into DSLO-native formats.",
+    "Surface drift may not propagate into ecology or frontier surfaces.",
+    "Surface must remain descriptive, not predictive.",
+    "Surface must preserve DOI lineage and geometry invariants."
+  ],
+
+  "dslo:continuityRules": [
+    "v0.8 inherits exclusively from v0.7",
+    "v0.8 is geometry-only",
+    "v0.8 is strictly additive",
+    "v0.8 does not modify substrate",
+    "v0.8 does not introduce physics",
+    "v0.8 does not reference v0.9",
+    "v0.8 does not reference sibling v0.8 artifacts",
+    "v0.8 maintains invariant-preserving vocabulary"
+  ],
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+
