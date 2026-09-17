@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/surfaces/context",
+  "@type": "dslo:GeometrySurface",
+
+  "dslo:version": "0.8",
+  "dct:title": "DSLO v0.8 — Context Geometry Surface",
+  "dct:identifier": "10.5281/zenodo.22180700",
+
+  "dct:description": "The Context Geometry Surface defines lawful geometric primitives for context stability, context shift, context alignment, and context drift across biological, cultural, machine, economic, and abstract systems. This surface is strictly additive, geometry-only, and inherits exclusively from DSLO v0.7 substrate and manifold lineage.",
+
+  "dslo:inheritsFrom": [
+    "https://zenodo.org/records/21864007",
+    "https://zenodo.org/records/21864226",
+    "https://zenodo.org/records/21864440",
+    "https://zenodo.org/records/21797083",
+    "https://zenodo.org/records/21939329",
+    "https://zenodo.org/records/21939562",
+    "https://zenodo.org/records/21938890",
+    "https://zenodo.org/records/21939121",
+    "https://zenodo.org/records/21939455",
+    "https://zenodo.org/records/21939671"
+  ],
+
+  "dslo:supplementedBy": "https://zenodo.org/records/22181245",
+  "dslo:referencedBy": "https://www.tnopsi.com",
+  "dslo:describedBy": "https://www.tnopsi.com/dslo-glossary",
+
+  "dslo:metaClass": {
+    "id": "M1–M5",
+    "label": "Cross-Domain Context Systems",
+    "doi": "10.5281/zenodo.22180700"
+  },
+
+  "dslo:geometryPrimitives": [
+    {
+      "id": "CX1",
+      "label": "Context Stability Envelope",
+      "description": "Defines lawful stability envelopes for context across all DSLO domains."
+    },
+    {
+      "id": "CX2",
+      "label": "Context Shift Geometry",
+      "description": "Defines lawful geometric transitions between context states."
+    },
+    {
+      "id": "CX3",
+      "label": "Context Alignment Geometry",
+      "description": "Defines geometric structures for aligning context across multi-agent and multi-domain systems."
+    },
+    {
+      "id": "CX4",
+      "label": "Context Drift Channels",
+      "description": "Defines lawful drift channels for context under load, signal change, or environmental variation."
+    },
+    {
+      "id": "CX5",
+      "label": "Context Identity Geometry",
+      "description": "Defines identity-preserving context structures across biological, cultural, machine, economic, and abstract systems."
+    }
+  ],
+
+  "dslo:invariantFamilies": [
+    {
+      "id": "IF-C1",
+      "label": "Context Stability Invariants",
+      "description": "Ensure stability across context transitions and alignment geometry."
+    },
+    {
+      "id": "IF-C2",
+      "label": "Context Continuity Invariants",
+      "description": "Ensure continuity across context drift channels and stability envelopes."
+    },
+    {
+      "id": "IF-C3",
+      "label": "Context Identity Invariants",
+      "description": "Ensure identity preservation across context shifts and alignment geometry."
+    }
+  ],
+
+  "dslo:continuityBands": [
+    {
+      "id": "CB-C1",
+      "label": "Context Continuity Band",
+      "description": "Defines lawful continuity across context stability and drift geometry."
+    },
+    {
+      "id": "CB-C2",
+      "label": "Alignment Continuity Band",
+      "description": "Defines continuity across context alignment geometry."
+    }
+  ],
+
+  "dslo:alignmentTargets": [
+    "geometry surfaces",
+    "domain surfaces",
+    "invariant surfaces",
+    "mapping surfaces",
+    "registry surfaces",
+    "ecology geometry",
+    "federated geometry"
+  ],
+
+  "dslo:surfaceRules": [
+    "Surface must remain non-runtime and non-agentic.",
+    "Surface may not modify geometry curvature or domain envelopes.",
+    "Surface must serialize cleanly into DSLO-native formats.",
+    "Surface drift may not propagate into ecology or frontier surfaces.",
+    "Surface must remain descriptive, not predictive.",
+    "Surface must preserve DOI lineage and geometry invariants."
+  ],
+
+  "dslo:continuityRules": [
+    "v0.8 inherits exclusively from v0.7",
+    "v0.8 is geometry-only",
+    "v0.8 is strictly additive",
+    "v0.8 does not modify substrate",
+    "v0.8 does not introduce physics",
+    "v0.8 does not reference v0.9",
+    "v0.8 does not reference sibling v0.8 artifacts",
+    "v0.8 maintains invariant-preserving vocabulary"
+  ],
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+
