@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/surfaces/identity",
+  "@type": "dslo:GeometrySurface",
+
+  "dslo:version": "0.8",
+  "dct:title": "DSLO v0.8 — Identity Geometry Surface",
+  "dct:identifier": "10.5281/zenodo.22180818",
+
+  "dct:description": "The Identity Geometry Surface defines lawful geometric primitives for identity curvature, identity drift channels, identity stability envelopes, identity boundary geometry, and identity coherence fields. This surface is strictly additive, geometry-only, and inherits exclusively from DSLO v0.7 substrate and manifold lineage.",
+
+  "dslo:inheritsFrom": [
+    "10.5281/zenodo.21939329",
+    "10.5281/zenodo.21939562",
+    "10.5281/zenodo.21938890",
+    "10.5281/zenodo.21939121",
+    "10.5281/zenodo.21939455",
+    "10.5281/zenodo.21939671"
+  ],
+
+  "dslo:supplementedBy": "10.5281/zenodo.22181245",
+  "dslo:referencedBy": "https://www.tnopsi.com",
+  "dslo:describedBy": "https://www.tnopsi.com/dslo-glossary",
+
+  "dslo:metaClass": {
+    "id": "F1",
+    "label": "Identity Geometry",
+    "doi": "10.5281/zenodo.22180818"
+  },
+
+  "dslo:geometryPrimitives": [
+    {
+      "id": "ID1",
+      "label": "Identity Curvature Geometry",
+      "description": "Defines lawful curvature envelopes for identity behavior across drift, collapse, and restoration."
+    },
+    {
+      "id": "ID2",
+      "label": "Identity Drift Channels",
+      "description": "Defines drift channels for identity under pressure, instability, or cross-domain transition."
+    },
+    {
+      "id": "ID3",
+      "label": "Identity Stability Envelopes",
+      "description": "Defines stability envelopes for identity behavior under load, drift, and environmental change."
+    },
+    {
+      "id": "ID4",
+      "label": "Identity Boundary Geometry",
+      "description": "Defines lawful boundary structures for identity transitions and coherence."
+    },
+    {
+      "id": "ID5",
+      "label": "Identity Coherence Fields",
+      "description": "Defines coherence fields enabling identity preservation across multi-domain geometry."
+    }
+  ],
+
+  "dslo:invariantFamilies": [
+    {
+      "id": "IF-ID1",
+      "label": "Identity Stability Invariants",
+      "description": "Ensure stability across identity curvature and drift geometry."
+    },
+    {
+      "id": "IF-ID2",
+      "label": "Identity Continuity Invariants",
+      "description": "Ensure continuity across identity drift channels and stability envelopes."
+    },
+    {
+      "id": "IF-ID3",
+      "label": "Identity Preservation Invariants",
+      "description": "Ensure identity preservation across lawful transitions."
+    }
+  ],
+
+  "dslo:continuityBands": [
+    {
+      "id": "CB-ID1",
+      "label": "Identity Continuity Band",
+      "description": "Defines lawful continuity across identity stability and drift geometry."
+    },
+    {
+      "id": "CB-ID2",
+      "label": "Boundary Continuity Band",
+      "description": "Defines continuity across identity-boundary geometry."
+    }
+  ],
+
+  "dslo:alignmentTargets": [
+    "geometry surfaces",
+    "domain surfaces",
+    "invariant surfaces",
+    "mapping surfaces",
+    "registry surfaces",
+    "ecology geometry",
+    "federated geometry"
+  ],
+
+  "dslo:surfaceRules": [
+    "Surface must remain non-runtime and non-agentic.",
+    "Surface may not modify geometry curvature or domain envelopes.",
+    "Surface must serialize cleanly into DSLO-native formats.",
+    "Surface drift may not propagate into ecology or frontier surfaces.",
+    "Surface must remain descriptive, not predictive.",
+    "Surface must preserve DOI lineage and geometry invariants."
+  ],
+
+  "dslo:continuityRules": [
+    "v0.8 inherits exclusively from v0.7",
+    "v0.8 is geometry-only",
+    "v0.8 is strictly additive",
+    "v0.8 does not modify substrate",
+    "v0.8 does not introduce physics",
+    "v0.8 does not reference v0.9",
+    "v0.8 does not reference sibling v0.8 artifacts",
+    "v0.8 maintains invariant-preserving vocabulary"
+  ],
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+

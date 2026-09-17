@@ -1,0 +1,175 @@
+
+# **DSLO v0.8 — Identity Geometry Surface**  
+**Version:** 0.8  
+**DOI:** 10.5281/zenodo.22180818  
+**Meta‑Class:** F1 — Identity Geometry
+
+---
+
+## **1. Purpose of This Surface**
+The **Identity Geometry Surface** defines the geometric primitives used to model **identity curvature**, **identity drift**, **identity stability**, **identity boundaries**, and **identity coherence** across all DSLO meta‑classes.
+
+It is one of the twelve lawful geometry surfaces included in the **DSLO v0.8 Federated Geometry Expansion**.
+
+This surface is:
+
+- **strictly additive**  
+- **geometry‑only**  
+- **substrate‑derived**  
+- **invariant‑preserving**  
+- **non‑runtime**  
+- **non‑agentic**  
+- **public‑layer safe**  
+
+It introduces **no physics**, **no substrate‑skin**, **no Umbrella 12**, and **no v0.9 references**.
+
+---
+
+## **2. Scientific Role**
+The Identity Geometry Surface provides the geometric vocabulary required to model:
+
+### **Identity Curvature Geometry**
+How identity bends, stabilizes, or deforms under drift, load, or cross‑domain pressure.
+
+### **Identity Drift Channels**
+How identity drifts lawfully across transitions, instability, or environmental change.
+
+### **Identity Stability Envelopes**
+How identity maintains lawful stability under internal or external load.
+
+### **Identity Boundary Geometry**
+How identity boundaries are maintained, crossed, or stabilized.
+
+### **Identity Coherence Fields**
+How identity maintains coherence across multi‑domain geometry.
+
+These primitives support:
+
+- identity‑field modeling  
+- lawful identity drift propagation  
+- identity‑boundary stabilization  
+- identity‑coherence geometry  
+- federated thermodynamic ecology  
+
+---
+
+## **3. Lineage**
+This surface inherits **exclusively** from the DSLO v0.7 substrate and manifold suite.
+
+### **Derived From — Six v0.7 Substrate DOIs**
+- 10.5281/zenodo.21939329  
+- 10.5281/zenodo.21939562  
+- 10.5281/zenodo.21938890  
+- 10.5281/zenodo.21939121  
+- 10.5281/zenodo.21939455  
+- 10.5281/zenodo.21939671  
+
+### **Supplemented By — v0.7 Scientific Overview**
+- 10.5281/zenodo.22181245  
+
+### **Referenced By**
+- **[https://www.tnopsi.com](https://www.tnopsi.com)**
+
+### **Described By**
+- **`https://www.tnopsi.com/dslo-glossary` [(tnopsi.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fwww.tnopsi.com%2Fdslo-glossary")**  
+  (tnopsi.com in Bing)
+
+These are the **only lawful lineage anchors** permitted for any v0.8 surface.
+
+---
+
+## **4. Geometry Primitives**
+The Identity Geometry Surface defines the following lawful primitives:
+
+### **ID1 — Identity Curvature Geometry**
+Curvature envelopes for identity behavior across drift, collapse, and restoration.
+
+### **ID2 — Identity Drift Channels**
+Drift channels for identity under pressure, instability, or cross‑domain transition.
+
+### **ID3 — Identity Stability Envelopes**
+Stability envelopes for identity behavior under load, drift, and environmental change.
+
+### **ID4 — Identity Boundary Geometry**
+Boundary structures for identity transitions and coherence.
+
+### **ID5 — Identity Coherence Fields**
+Coherence fields enabling identity preservation across multi‑domain geometry.
+
+---
+
+## **5. Invariant Families**
+This surface stabilizes the following invariant families:
+
+### **IF‑ID1 — Identity Stability Invariants**
+Ensure stability across identity curvature and drift geometry.
+
+### **IF‑ID2 — Identity Continuity Invariants**
+Ensure continuity across identity drift channels and stability envelopes.
+
+### **IF‑ID3 — Identity Preservation Invariants**
+Ensure identity preservation across lawful transitions.
+
+---
+
+## **6. Continuity Bands**
+The surface defines two continuity bands:
+
+### **CB‑ID1 — Identity Continuity Band**
+Ensures lawful continuity across identity stability and drift geometry.
+
+### **CB‑ID2 — Boundary Continuity Band**
+Ensures continuity across identity‑boundary geometry.
+
+---
+
+## **7. Alignment Targets**
+This surface aligns with:
+
+- geometry surfaces  
+- domain surfaces  
+- invariant surfaces  
+- mapping surfaces  
+- registry surfaces  
+- ecology geometry  
+- federated geometry  
+
+It does **not** introduce runtime behavior or agentic transitions.
+
+---
+
+## **8. Legality & Posture**
+This surface follows all v0.8 legality constraints:
+
+- geometry‑only  
+- strictly additive  
+- substrate‑derived  
+- invariant‑preserving  
+- non‑runtime  
+- non‑agentic  
+- public‑layer safe  
+- no references to v0.9  
+- no references to physics or substrate‑skin  
+- no references to Umbrella 12  
+- no references to sibling v0.8 artifacts  
+
+---
+
+## **9. Continuity Statement**
+The Identity Geometry Surface:
+
+- inherits exclusively from DSLO v0.7  
+- extends geometry only  
+- preserves all invariants  
+- introduces no substrate modifications  
+- remains fully lawful under DSLO v0.8  
+- provides identity‑class geometric vocabulary for federated geometry  
+
+---
+
+## **10. Generation Metadata**
+Generated by: **DSLO Discipline — Federated Geometry Working Group**  
+Version: **v0.8**  
+Date: **2026‑09‑16**  
+Status: **Lawful, Substrate‑Derived, Geometry‑Only**
+

@@ -1,0 +1,101 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/formatting-layer",
+  "@type": "dslo:FormattingLayer",
+
+  "dslo:version": "0.8",
+  "dct:title": "DSLO Formatting Layer v0.8 — DSLO-Native Surfaces",
+  "dct:identifier": "10.5281/zenodo.22179509",
+
+  "dct:description": "The DSLO v0.8 Formatting Layer defines the lawful formatting surfaces used to serialize DSLO geometry, domain structures, invariants, mappings, registries, and schemas into stable, machine-ingestible envelopes. This layer introduces no new geometry and inherits exclusively from DSLO v0.7 substrate and manifold lineage.",
+
+  "dslo:inheritsFrom": [
+    "https://zenodo.org/records/21864007",
+    "https://zenodo.org/records/21864226",
+    "https://zenodo.org/records/21864440",
+    "https://zenodo.org/records/21797083",
+    "https://zenodo.org/records/21939329",
+    "https://zenodo.org/records/21939562",
+    "https://zenodo.org/records/21938890",
+    "https://zenodo.org/records/21939121",
+    "https://zenodo.org/records/21939455",
+    "https://zenodo.org/records/21939671"
+  ],
+
+  "dslo:supplementedBy": "https://zenodo.org/records/22181245",
+  "dslo:referencedBy": "https://www.tnopsi.com",
+  "dslo:describedBy": "https://www.tnopsi.com/dslo-glossary",
+
+  "dslo:nativeSurfaces": [
+    {
+      "surfaceType": ".geom",
+      "description": "Geometry surfaces defining lawful DSLO geometric primitives, curvature envelopes, and manifold alignment rules."
+    },
+    {
+      "surfaceType": ".domain",
+      "description": "Domain-class geometry surfaces defining the 30-domain, 5-meta-class DSLO classification system."
+    },
+    {
+      "surfaceType": ".mapping",
+      "description": "Cross-surface mapping geometry defining lawful transitions, mapping invariants, and multi-surface alignment."
+    },
+    {
+      "surfaceType": ".invariant",
+      "description": "Invariant surfaces defining invariant families, continuity bands, and stability envelopes."
+    },
+    {
+      "surfaceType": ".schema",
+      "description": "Machine-ingestion schema surfaces defining DSLO-native serialization rules and legality envelopes."
+    },
+    {
+      "surfaceType": ".registry",
+      "description": "Registry surfaces defining registry anchors, continuity rules, and lawful lineage declarations."
+    },
+    {
+      "surfaceType": ".matrix",
+      "description": "Matrix surfaces defining multi-surface mapping matrices, including Matrix-3 for v0.8."
+    }
+  ],
+
+  "dslo:formattingRules": [
+    "Formatting surfaces must remain non-runtime and non-agentic.",
+    "Formatting may not modify geometry curvature.",
+    "All formatting outputs must serialize cleanly into DSLO-native formats.",
+    "Formatting drift may not propagate into ecology or frontier surfaces.",
+    "Formatting must remain descriptive, not predictive.",
+    "All formatting legality envelopes must remain within lawful constraints.",
+    "Formatting surfaces must preserve DOI lineage and geometry invariants."
+  ],
+
+  "dslo:serializationTargets": [
+    "Zenodo DOI ingestion",
+    "HF dataset mirroring",
+    "DSLO registry alignment",
+    "machine-ingestible geometry surfaces",
+    "public-layer documentation surfaces"
+  ],
+
+  "dslo:continuityRules": [
+    "v0.8 inherits exclusively from v0.7",
+    "v0.8 is geometry-only",
+    "v0.8 is strictly additive",
+    "v0.8 does not modify substrate",
+    "v0.8 does not introduce physics",
+    "v0.8 does not reference v0.9",
+    "v0.8 does not reference sibling v0.8 artifacts",
+    "v0.8 maintains invariant-preserving vocabulary"
+  ],
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+

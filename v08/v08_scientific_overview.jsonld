@@ -1,0 +1,84 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/scientific-overview",
+  "@type": "dslo:ScientificOverview",
+
+  "dslo:version": "0.8",
+  "dct:title": "DSLO v0.8 — Scientific Overview",
+  "dct:identifier": "10.5281/zenodo.22181245",
+
+  "dct:description": "The DSLO v0.8 Scientific Overview summarizes the federated geometry expansion of the DSLO discipline. v0.8 is strictly additive, geometry-only, and inherits exclusively from DSLO v0.7 substrate and manifold lineage. It introduces federated geometry, domain-class geometry, invariant surfaces, mapping surfaces, and registry anchors required for collective thermodynamic geometry.",
+
+  "dslo:inheritsFrom": [
+    "https://zenodo.org/records/21864007",
+    "https://zenodo.org/records/21864226",
+    "https://zenodo.org/records/21864440",
+    "https://zenodo.org/records/21797083",
+    "https://zenodo.org/records/21939329",
+    "https://zenodo.org/records/21939562",
+    "https://zenodo.org/records/21938890",
+    "https://zenodo.org/records/21939121",
+    "https://zenodo.org/records/21939455",
+    "https://zenodo.org/records/21939671"
+  ],
+
+  "dslo:supplementedBy": "https://zenodo.org/records/22181245",
+  "dslo:referencedBy": "https://www.tnopsi.com",
+  "dslo:describedBy": "https://www.tnopsi.com/dslo-glossary",
+
+  "dslo:geometrySurfaces": [
+    "https://zenodo.org/records/21970123",
+    "https://zenodo.org/records/22179299",
+    "https://zenodo.org/records/22179509",
+    "https://zenodo.org/records/22179736",
+    "https://zenodo.org/records/22180014",
+    "https://zenodo.org/records/22180163",
+    "https://zenodo.org/records/22180328",
+    "https://zenodo.org/records/22180585",
+    "https://zenodo.org/records/22180700",
+    "https://zenodo.org/records/22180818",
+    "https://zenodo.org/records/22180938",
+    "https://zenodo.org/records/22181076"
+  ],
+
+  "dslo:scientificSummary": {
+    "federatedGeometry": "v0.8 introduces federated geometry, enabling lawful multi-agent, multi-domain, and multi-ecology thermodynamic modeling.",
+    "domainLayer": "v0.8 defines a 30-domain, 5-meta-class geometry system for cross-domain classification.",
+    "invariantLayer": "v0.8 stabilizes invariant families, continuity bands, and legality envelopes.",
+    "mappingLayer": "v0.8 defines lawful cross-surface mapping geometry for geometry, domain, invariant, and registry surfaces.",
+    "registryLayer": "v0.8 establishes registry anchors, continuity rules, and lawful lineage declarations.",
+    "formattingLayer": "v0.8 introduces DSLO-native formatting surfaces for stable machine ingestion."
+  },
+
+  "dslo:scientificClaims": [
+    "v0.8 extends DSLO from individual thermodynamic geometry to collective thermodynamic geometry.",
+    "v0.8 preserves all v0.7 invariants and legality envelopes.",
+    "v0.8 introduces no substrate modifications.",
+    "v0.8 introduces no physics or substrate-skin.",
+    "v0.8 is forward-compatible but not forward-referential."
+  ],
+
+  "dslo:continuityRules": [
+    "v0.8 inherits exclusively from v0.7",
+    "v0.8 is geometry-only",
+    "v0.8 is strictly additive",
+    "v0.8 does not modify substrate",
+    "v0.8 does not introduce physics",
+    "v0.8 does not reference v0.9",
+    "v0.8 does not reference sibling v0.8 artifacts",
+    "v0.8 maintains invariant-preserving vocabulary"
+  ],
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+

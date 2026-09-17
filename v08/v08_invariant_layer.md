@@ -1,0 +1,157 @@
+
+# **DSLO Invariant Surface v0.8 — Invariant Families, Continuity Bands**  
+**Version:** 0.8  
+**DOI:** 10.5281/zenodo.22180818  
+**Type:** Invariant Layer  
+**ID:** `https://www.tnopsi.com/dslo/v0.8/invariant-layer`
+
+---
+
+## **1. Overview**
+The **DSLO v0.8 Invariant Layer** defines the invariant families, continuity bands, stability envelopes, and legality constraints required for federated geometry.
+
+Invariant surfaces are:
+
+- deterministic  
+- invariant‑preserving  
+- non‑runtime  
+- non‑agentic  
+- geometry‑only  
+
+This layer inherits **exclusively** from the DSLO v0.7 substrate and manifold lineage.
+
+---
+
+## **2. Lineage**
+### **Derived From — DSLO v0.7 Substrate & Manifold Suite**
+- [https://zenodo.org/records/21864007](https://zenodo.org/records/21864007)  
+- [https://zenodo.org/records/21864226](https://zenodo.org/records/21864226)  
+- [https://zenodo.org/records/21864440](https://zenodo.org/records/21864440)  
+- [https://zenodo.org/records/21797083](https://zenodo.org/records/21797083)  
+- [https://zenodo.org/records/21939329](https://zenodo.org/records/21939329)  
+- [https://zenodo.org/records/21939562](https://zenodo.org/records/21939562)  
+- [https://zenodo.org/records/21938890](https://zenodo.org/records/21938890)  
+- [https://zenodo.org/records/21939121](https://zenodo.org/records/21939121)  
+- [https://zenodo.org/records/21939455](https://zenodo.org/records/21939455)  
+- [https://zenodo.org/records/21939671](https://zenodo.org/records/21939671)  
+
+### **Supplemented By**
+- [https://zenodo.org/records/22181245](https://zenodo.org/records/22181245)
+
+### **Referenced By**
+- [https://www.tnopsi.com](https://www.tnopsi.com)
+
+### **Described By**
+- [https://www.tnopsi.com/dslo-glossary](https://www.tnopsi.com/dslo-glossary)
+
+---
+
+## **3. Invariant Families**
+### **IF1 — Curvature Stability Invariants**  
+Defines curvature variance bounds, curvature envelopes, and lawful curvature transitions.
+
+### **IF2 — Identity Preservation Invariants**  
+Defines identity‑region stability, identity‑boundary clarity, and lawful identity propagation.
+
+### **IF3 — Manifold Legality Invariants**  
+Defines manifold legality envelopes, manifold boundary constraints, and lawful manifold transitions.
+
+### **IF4 — Load Stability Invariants**  
+Defines load envelopes, load gradients, and lawful load propagation geometry.
+
+### **IF5 — Continuity Band Invariants**  
+Defines continuity bands, continuity envelopes, and lawful continuity propagation across surfaces.
+
+---
+
+## **4. Continuity Bands**
+### **CB1 — Curvature Continuity Band**  
+Ensures curvature continuity across geometry, domain, and mapping surfaces.
+
+### **CB2 — Identity Continuity Band**  
+Ensures identity continuity across geometry, domain, and ecology surfaces.
+
+### **CB3 — Manifold Continuity Band**  
+Ensures manifold continuity across geometry and invariant surfaces.
+
+### **CB4 — Load Continuity Band**  
+Ensures load continuity across geometry, domain, and registry surfaces.
+
+### **CB5 — Federated Continuity Band**  
+Ensures continuity across federated geometry surfaces without introducing runtime behavior.
+
+---
+
+## **5. Invariant Operators**
+### **I‑CS — Curvature Stability Operator**  
+**Requirements:**  
+- curvature_variance_bounded  
+- curvature_envelope_stable  
+- manifold_legal  
+
+### **I‑IP — Identity Preservation Operator**  
+**Requirements:**  
+- identity_boundary_clear  
+- identity_region_stable  
+
+### **I‑ML — Manifold Legality Operator**  
+**Requirements:**  
+- manifold_boundary_clear  
+- manifold_transition_lawful  
+
+### **I‑LS — Load Stability Operator**  
+**Requirements:**  
+- load_gradient_bounded  
+- load_envelope_stable  
+
+### **I‑CB — Continuity Band Operator**  
+**Requirements:**  
+- continuity_envelope_stable  
+- continuity_band_lawful  
+
+---
+
+## **6. Invariant Rules**
+Invariant surfaces must follow all v0.8 legality constraints:
+
+- remain non‑runtime and non‑agentic  
+- may not modify geometry curvature or domain envelopes  
+- must serialize cleanly into DSLO‑native formats  
+- invariant drift may not propagate into ecology or frontier surfaces  
+- must remain descriptive, not predictive  
+- legality envelopes must remain within lawful constraints  
+- must preserve DOI lineage and geometry invariants  
+
+---
+
+## **7. Alignment Targets**
+Invariant surfaces align with:
+
+- geometry surfaces  
+- domain surfaces  
+- mapping surfaces  
+- registry surfaces  
+- ecology geometry  
+- federated geometry  
+
+---
+
+## **8. Continuity Rules**
+The Invariant Layer follows all v0.8 continuity constraints:
+
+- v0.8 inherits exclusively from v0.7  
+- v0.8 is geometry‑only  
+- v0.8 is strictly additive  
+- v0.8 does not modify substrate  
+- v0.8 does not introduce physics  
+- v0.8 does not reference v0.9  
+- v0.8 does not reference sibling v0.8 artifacts  
+- v0.8 maintains invariant‑preserving vocabulary  
+
+---
+
+## **9. Provenance**
+Generated By: **DSLO Discipline — Federated Geometry Working Group**  
+Date: **2026‑09‑16**  
+Status: **Lawful, Substrate‑Derived, Geometry‑Only**
+

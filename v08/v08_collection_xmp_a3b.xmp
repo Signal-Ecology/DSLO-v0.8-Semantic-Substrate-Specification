@@ -1,0 +1,113 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+           xmlns:dc="http://purl.org/dc/elements/1.1/"
+           xmlns:dct="http://purl.org/dc/terms/"
+           xmlns:dslo="https://www.tnopsi.com/dslo/schema#"
+           xmlns:prov="http://www.w3.org/ns/prov#"
+           xmlns:zenodo="https://zenodo.org/ns/">
+
+    <!-- Core Identification -->
+    <rdf:Description rdf:about="https://www.tnopsi.com/dslo/v0.8/collection">
+      <dc:title>DSLO v0.8 — Federated Geometry Collection</dc:title>
+      <dc:publisher>Zenodo</dc:publisher>
+      <dct:issued>2026-09-16</dct:issued>
+      <dc:creator>DSLO Discipline — Federated Geometry Working Group</dc:creator>
+      <dc:language>en</dc:language>
+      <dc:rights>CC-BY 4.0</dc:rights>
+    </rdf:Description>
+
+    <!-- Abstract -->
+    <rdf:Description rdf:about="">
+      <dc:description>
+        DSLO v0.8 is the federated geometry expansion of the DSLO discipline. 
+        This collection contains all geometry-only artifacts included in the v0.8 release. 
+        v0.8 inherits exclusively from DSLO v0.7 substrate and manifold lineage, 
+        is strictly additive, invariant-preserving, substrate-neutral, and does not reference v0.9, physics, substrate-skin, or Umbrella 12.
+      </dc:description>
+    </rdf:Description>
+
+    <!-- Substrate Lineage (v0.7) -->
+    <rdf:Description rdf:about="">
+      <dslo:inheritsFrom rdf:parseType="Collection">
+        <rdf:Description rdf:about="https://zenodo.org/records/21864007"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21864226"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21864440"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21797083"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21939329"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21939562"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21938890"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21939121"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21939455"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21939671"/>
+      </dslo:inheritsFrom>
+    </rdf:Description>
+
+    <!-- v0.7 Overview -->
+    <rdf:Description rdf:about="">
+      <dslo:supplementedBy rdf:resource="https://zenodo.org/records/22181245"/>
+    </rdf:Description>
+
+    <!-- Public Anchors -->
+    <rdf:Description rdf:about="">
+      <dslo:referencedBy rdf:resource="https://www.tnopsi.com"/>
+      <dslo:describedBy rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+    </rdf:Description>
+
+    <!-- v0.8 Geometry Surfaces -->
+    <rdf:Description rdf:about="">
+      <dslo:hasPart rdf:parseType="Collection">
+        <rdf:Description rdf:about="https://zenodo.org/records/21970123"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22179299"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22179509"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22179736"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180014"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180163"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180328"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180585"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180700"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180818"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180938"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22181076"/>
+      </dslo:hasPart>
+    </rdf:Description>
+
+    <!-- Invariant Status -->
+    <rdf:Description rdf:about="">
+      <dslo:invariantStatus>
+        <rdf:Description>
+          <dslo:substrateNeutral>true</dslo:substrateNeutral>
+          <dslo:invariantPreserving>true</dslo:invariantPreserving>
+          <dslo:lawful>true</dslo:lawful>
+          <dslo:nonReconstructible>true</dslo:nonReconstructible>
+          <dslo:publicLayerSafe>true</dslo:publicLayerSafe>
+        </rdf:Description>
+      </dslo:invariantStatus>
+    </rdf:Description>
+
+    <!-- Continuity Rules -->
+    <rdf:Description rdf:about="">
+      <dslo:continuityRules rdf:parseType="Collection">
+        <rdf:Description>v0.8 inherits exclusively from v0.7</rdf:Description>
+        <rdf:Description>v0.8 is geometry-only</rdf:Description>
+        <rdf:Description>v0.8 is strictly additive</rdf:Description>
+        <rdf:Description>v0.8 does not modify substrate</rdf:Description>
+        <rdf:Description>v0.8 does not introduce physics</rdf:Description>
+        <rdf:Description>v0.8 does not reference v0.9</rdf:Description>
+        <rdf:Description>v0.8 does not reference sibling v0.8 artifacts</rdf:Description>
+        <rdf:Description>v0.8 maintains invariant-preserving vocabulary</rdf:Description>
+      </dslo:continuityRules>
+    </rdf:Description>
+
+    <!-- Provenance -->
+    <rdf:Description rdf:about="">
+      <prov:wasGeneratedBy>
+        <rdf:Description>
+          <dct:date>2026-09-16</dct:date>
+          <dc:creator>DSLO Discipline — Federated Geometry Working Group</dc:creator>
+        </rdf:Description>
+      </prov:wasGeneratedBy>
+    </rdf:Description>
+
+  </rdf:RDF>
+</x:xmpmeta>
+

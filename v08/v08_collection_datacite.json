@@ -1,0 +1,184 @@
+{
+  "types": {
+    "resourceType": "Dataset",
+    "resourceTypeGeneral": "Dataset"
+  },
+
+  "titles": [
+    {
+      "title": "DSLO v0.8 — Federated Geometry Collection"
+    }
+  ],
+
+  "publisher": "Zenodo",
+  "publicationYear": 2026,
+
+  "creators": [
+    {
+      "name": "DSLO Discipline — Federated Geometry Working Group",
+      "affiliation": "Inda Moment Incorporated"
+    }
+  ],
+
+  "descriptions": [
+    {
+      "description": "The DSLO v0.8 Federated Geometry Collection contains all geometry-only artifacts included in the v0.8 release. This collection inherits exclusively from DSLO v0.7 substrate and manifold lineage, and provides the federated geometry surfaces required for multi-agent, multi-domain, and multi-ecology systems. v0.8 is strictly additive, invariant-preserving, substrate-neutral, and does not reference v0.9, physics, substrate-skin, or Umbrella 12.",
+      "descriptionType": "Abstract"
+    }
+  ],
+
+  "relatedIdentifiers": [
+    {
+      "relationType": "IsDerivedFrom",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.21864007"
+    },
+    {
+      "relationType": "IsDerivedFrom",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.21864226"
+    },
+    {
+      "relationType": "IsDerivedFrom",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.21864440"
+    },
+    {
+      "relationType": "IsDerivedFrom",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.21797083"
+    },
+    {
+      "relationType": "IsDerivedFrom",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.21939329"
+    },
+    {
+      "relationType": "IsDerivedFrom",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.21939562"
+    },
+    {
+      "relationType": "IsDerivedFrom",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.21938890"
+    },
+    {
+      "relationType": "IsDerivedFrom",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.21939121"
+    },
+    {
+      "relationType": "IsDerivedFrom",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.21939455"
+    },
+    {
+      "relationType": "IsDerivedFrom",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.21939671"
+    },
+
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.21970123"
+    },
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.22179299"
+    },
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.22179509"
+    },
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.22179736"
+    },
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.22180014"
+    },
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.22180163"
+    },
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.22180328"
+    },
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.22180585"
+    },
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.22180700"
+    },
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.22180818"
+    },
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.22180938"
+    },
+    {
+      "relationType": "HasPart",
+      "relatedIdentifierType": "DOI",
+      "relatedIdentifier": "10.5281/zenodo.22181076"
+    }
+  ],
+
+  "subjects": [
+    {
+      "subject": "Federated Geometry"
+    },
+    {
+      "subject": "Distributed Substrate Logic"
+    },
+    {
+      "subject": "Invariant-Preserving Geometry"
+    },
+    {
+      "subject": "Multi-Domain Geometry"
+    },
+    {
+      "subject": "Thermodynamic Ecology"
+    }
+  ],
+
+  "language": "en",
+
+  "rightsList": [
+    {
+      "rights": "CC-BY 4.0",
+      "rightsUri": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+
+  "alternateIdentifiers": [
+    {
+      "alternateIdentifier": "https://www.tnopsi.com/dslo/v0.8/",
+      "alternateIdentifierType": "URL"
+    }
+  ],
+
+  "fundingReferences": [
+    {
+      "funderName": "Inda Moment Incorporated"
+    }
+  ]
+}
+

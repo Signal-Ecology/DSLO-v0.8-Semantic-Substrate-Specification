@@ -1,0 +1,171 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/invariant-layer",
+  "@type": "dslo:InvariantLayer",
+
+  "dslo:version": "0.8",
+  "dct:title": "DSLO Invariant Surface v0.8 — Invariant Families, Continuity Bands",
+  "dct:identifier": "10.5281/zenodo.22180818",
+
+  "dct:description": "The DSLO v0.8 Invariant Layer defines the invariant families, continuity bands, stability envelopes, and legality constraints required for federated geometry. Invariant surfaces remain deterministic, invariant-preserving, non-runtime, and non-agentic. This layer inherits exclusively from DSLO v0.7 substrate and manifold lineage.",
+
+  "dslo:inheritsFrom": [
+    "https://zenodo.org/records/21864007",
+    "https://zenodo.org/records/21864226",
+    "https://zenodo.org/records/21864440",
+    "https://zenodo.org/records/21797083",
+    "https://zenodo.org/records/21939329",
+    "https://zenodo.org/records/21939562",
+    "https://zenodo.org/records/21938890",
+    "https://zenodo.org/records/21939121",
+    "https://zenodo.org/records/21939455",
+    "https://zenodo.org/records/21939671"
+  ],
+
+  "dslo:supplementedBy": "https://zenodo.org/records/22181245",
+  "dslo:referencedBy": "https://www.tnopsi.com",
+  "dslo:describedBy": "https://www.tnopsi.com/dslo-glossary",
+
+  "dslo:invariantFamilies": [
+    {
+      "id": "IF1",
+      "label": "Curvature Stability Invariants",
+      "description": "Defines curvature variance bounds, curvature envelopes, and lawful curvature transitions."
+    },
+    {
+      "id": "IF2",
+      "label": "Identity Preservation Invariants",
+      "description": "Defines identity-region stability, identity-boundary clarity, and lawful identity propagation."
+    },
+    {
+      "id": "IF3",
+      "label": "Manifold Legality Invariants",
+      "description": "Defines manifold legality envelopes, manifold boundary constraints, and lawful manifold transitions."
+    },
+    {
+      "id": "IF4",
+      "label": "Load Stability Invariants",
+      "description": "Defines load envelopes, load gradients, and lawful load propagation geometry."
+    },
+    {
+      "id": "IF5",
+      "label": "Continuity Band Invariants",
+      "description": "Defines continuity bands, continuity envelopes, and lawful continuity propagation across surfaces."
+    }
+  ],
+
+  "dslo:continuityBands": [
+    {
+      "id": "CB1",
+      "label": "Curvature Continuity Band",
+      "description": "Ensures curvature continuity across geometry, domain, and mapping surfaces."
+    },
+    {
+      "id": "CB2",
+      "label": "Identity Continuity Band",
+      "description": "Ensures identity continuity across geometry, domain, and ecology surfaces."
+    },
+    {
+      "id": "CB3",
+      "label": "Manifold Continuity Band",
+      "description": "Ensures manifold continuity across geometry and invariant surfaces."
+    },
+    {
+      "id": "CB4",
+      "label": "Load Continuity Band",
+      "description": "Ensures load continuity across geometry, domain, and registry surfaces."
+    },
+    {
+      "id": "CB5",
+      "label": "Federated Continuity Band",
+      "description": "Ensures continuity across federated geometry surfaces without introducing runtime behavior."
+    }
+  ],
+
+  "dslo:invariantOperators": [
+    {
+      "operator": "I-CS",
+      "description": "Curvature Stability Operator",
+      "requirements": [
+        "curvature_variance_bounded",
+        "curvature_envelope_stable",
+        "manifold_legal"
+      ]
+    },
+    {
+      "operator": "I-IP",
+      "description": "Identity Preservation Operator",
+      "requirements": [
+        "identity_boundary_clear",
+        "identity_region_stable"
+      ]
+    },
+    {
+      "operator": "I-ML",
+      "description": "Manifold Legality Operator",
+      "requirements": [
+        "manifold_boundary_clear",
+        "manifold_transition_lawful"
+      ]
+    },
+    {
+      "operator": "I-LS",
+      "description": "Load Stability Operator",
+      "requirements": [
+        "load_gradient_bounded",
+        "load_envelope_stable"
+      ]
+    },
+    {
+      "operator": "I-CB",
+      "description": "Continuity Band Operator",
+      "requirements": [
+        "continuity_envelope_stable",
+        "continuity_band_lawful"
+      ]
+    }
+  ],
+
+  "dslo:invariantRules": [
+    "Invariant surfaces must remain non-runtime and non-agentic.",
+    "Invariants may not modify geometry curvature or domain envelopes.",
+    "All invariant outputs must serialize cleanly into DSLO-native formats.",
+    "Invariant drift may not propagate into ecology or frontier surfaces.",
+    "Invariant surfaces must remain descriptive, not predictive.",
+    "All legality envelopes must remain within lawful constraints.",
+    "Invariant surfaces must preserve DOI lineage and geometry invariants."
+  ],
+
+  "dslo:alignmentTargets": [
+    "geometry surfaces",
+    "domain surfaces",
+    "mapping surfaces",
+    "registry surfaces",
+    "ecology geometry",
+    "federated geometry"
+  ],
+
+  "dslo:continuityRules": [
+    "v0.8 inherits exclusively from v0.7",
+    "v0.8 is geometry-only",
+    "v0.8 is strictly additive",
+    "v0.8 does not modify substrate",
+    "v0.8 does not introduce physics",
+    "v0.8 does not reference v0.9",
+    "v0.8 does not reference sibling v0.8 artifacts",
+    "v0.8 maintains invariant-preserving vocabulary"
+  ],
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+

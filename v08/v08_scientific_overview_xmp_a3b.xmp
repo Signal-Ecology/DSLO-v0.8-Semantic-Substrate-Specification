@@ -1,0 +1,122 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+  <rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dct="http://purl.org/dc/terms/"
+      xmlns:dslo="https://www.tnopsi.com/dslo/schema#"
+      xmlns:prov="http://www.w3.org/ns/prov#">
+
+    <!-- Core Identification -->
+    <rdf:Description rdf:about="https://www.tnopsi.com/dslo/v0.8/scientific-overview">
+      <dc:title>DSLO v0.8 — Scientific Overview</dc:title>
+      <dc:creator>DSLO Discipline — Federated Geometry Working Group</dc:creator>
+      <dc:publisher>TNOPSI Institute</dc:publisher>
+      <dct:identifier>10.5281/zenodo.22181245</dct:identifier>
+      <dct:issued>2026-09-16</dct:issued>
+      <dc:language>en</dc:language>
+      <dc:rights>CC-BY 4.0</dc:rights>
+    </rdf:Description>
+
+    <!-- Abstract -->
+    <rdf:Description rdf:about="">
+      <dc:description>
+        The DSLO v0.8 Scientific Overview summarizes the federated geometry expansion of the DSLO
+        discipline. v0.8 is strictly additive, geometry-only, and inherits exclusively from DSLO v0.7
+        substrate and manifold lineage. It introduces federated geometry, domain-class geometry,
+        invariant surfaces, mapping surfaces, registry anchors, and DSLO-native formatting surfaces
+        required for collective thermodynamic geometry.
+      </dc:description>
+    </rdf:Description>
+
+    <!-- Substrate Lineage (v0.7) -->
+    <rdf:Description rdf:about="">
+      <dslo:inheritsFrom rdf:parseType="Collection">
+        <rdf:Description rdf:about="https://zenodo.org/records/21864007"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21864226"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21864440"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21797083"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21939329"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21939562"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21938890"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21939121"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21939455"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/21939671"/>
+      </dslo:inheritsFrom>
+    </rdf:Description>
+
+    <!-- Public Anchors -->
+    <rdf:Description rdf:about="">
+      <dslo:supplementedBy rdf:resource="https://zenodo.org/records/22181245"/>
+      <dslo:referencedBy rdf:resource="https://www.tnopsi.com"/>
+      <dslo:describedBy rdf:resource="https://www.tnopsi.com/dslo-glossary"/>
+    </rdf:Description>
+
+    <!-- Geometry Surfaces -->
+    <rdf:Description rdf:about="">
+      <dslo:geometrySurfaces rdf:parseType="Collection">
+        <rdf:Description rdf:about="https://zenodo.org/records/21970123"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22179299"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22179509"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22179736"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180014"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180163"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180328"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180585"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180700"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180818"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22180938"/>
+        <rdf:Description rdf:about="https://zenodo.org/records/22181076"/>
+      </dslo:geometrySurfaces>
+    </rdf:Description>
+
+    <!-- Scientific Summary -->
+    <rdf:Description rdf:about="">
+      <dslo:scientificSummary>
+        <rdf:Description>
+          <dslo:federatedGeometry>v0.8 introduces federated geometry enabling lawful multi-agent, multi-domain, and multi-ecology thermodynamic modeling.</dslo:federatedGeometry>
+          <dslo:domainLayer>v0.8 defines a 30-domain, 5-meta-class geometry system for cross-domain classification.</dslo:domainLayer>
+          <dslo:invariantLayer>v0.8 stabilizes invariant families, continuity bands, and legality envelopes.</dslo:invariantLayer>
+          <dslo:mappingLayer>v0.8 defines lawful cross-surface mapping geometry for geometry, domain, invariant, and registry surfaces.</dslo:mappingLayer>
+          <dslo:registryLayer>v0.8 establishes registry anchors, continuity rules, and lawful lineage declarations.</dslo:registryLayer>
+          <dslo:formattingLayer>v0.8 introduces DSLO-native formatting surfaces for stable machine ingestion.</dslo:formattingLayer>
+        </rdf:Description>
+      </dslo:scientificSummary>
+    </rdf:Description>
+
+    <!-- Scientific Claims -->
+    <rdf:Description rdf:about="">
+      <dslo:scientificClaims rdf:parseType="Collection">
+        <rdf:Description>v0.8 extends DSLO from individual thermodynamic geometry to collective thermodynamic geometry.</rdf:Description>
+        <rdf:Description>v0.8 preserves all v0.7 invariants and legality envelopes.</rdf:Description>
+        <rdf:Description>v0.8 introduces no substrate modifications.</rdf:Description>
+        <rdf:Description>v0.8 introduces no physics or substrate-skin.</rdf:Description>
+        <rdf:Description>v0.8 is forward-compatible but not forward-referential.</rdf:Description>
+      </dslo:scientificClaims>
+    </rdf:Description>
+
+    <!-- Continuity Rules -->
+    <rdf:Description rdf:about="">
+      <dslo:continuityRules rdf:parseType="Collection">
+        <rdf:Description>v0.8 inherits exclusively from v0.7</rdf:Description>
+        <rdf:Description>v0.8 is geometry-only</rdf:Description>
+        <rdf:Description>v0.8 is strictly additive</rdf:Description>
+        <rdf:Description>v0.8 does not modify substrate</rdf:Description>
+        <rdf:Description>v0.8 does not introduce physics</rdf:Description>
+        <rdf:Description>v0.8 does not reference v0.9</rdf:Description>
+        <rdf:Description>v0.8 does not reference sibling v0.8 artifacts</rdf:Description>
+        <rdf:Description>v0.8 maintains invariant-preserving vocabulary</rdf:Description>
+      </dslo:continuityRules>
+    </rdf:Description>
+
+    <!-- Provenance -->
+    <rdf:Description rdf:about="">
+      <prov:wasGeneratedBy>
+        <rdf:Description>
+          <dct:date>2026-09-16</dct:date>
+          <dc:creator>DSLO Discipline — Federated Geometry Working Group</dc:creator>
+        </rdf:Description>
+      </prov:wasGeneratedBy>
+    </rdf:Description>
+
+  </rdf:RDF>
+</x:xmpmeta>

@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "schema": "http://schema.org/"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/continuity",
+  "@type": "dslo:ContinuityDeclaration",
+
+  "dslo:version": "0.8",
+  "dslo:releaseType": "FederatedGeometryExpansion",
+  "dslo:continuityStatus": "StrictlyAdditive",
+  "dslo:modifiesSubstrate": false,
+  "dslo:introducesPhysics": false,
+  "dslo:introducesUmbrella": false,
+  "dslo:referencesSiblingArtifacts": false,
+  "dslo:referencesFutureVersions": false,
+
+  "dct:description": "DSLO v0.8 is the federated geometry expansion of the DSLO discipline. It inherits its substrate, manifold architecture, and legality constraints exclusively from DSLO v0.7. v0.8 is strictly additive, geometry-only, and does not modify substrate, introduce physics, or reference v0.9 or sibling v0.8 artifacts.",
+
+  "dslo:inheritsFrom": [
+    {
+      "@id": "https://zenodo.org/records/21864007",
+      "dct:title": "DSLO v0.7 — Multi‑Manifold Geometry for Human–Machine Thermodynamic Drift"
+    },
+    {
+      "@id": "https://zenodo.org/records/21864226",
+      "dct:title": "DSLO v0.7 — Operations Manual: Substrate-Level Architecture, Construction, and Documentation Guide"
+    },
+    {
+      "@id": "https://zenodo.org/records/21864440",
+      "dct:title": "DSLO v0.7 — Geometry Examples & Demonstrations"
+    },
+    {
+      "@id": "https://zenodo.org/records/21797083",
+      "dct:title": "DSLO Substrate Manifest"
+    },
+    {
+      "@id": "https://zenodo.org/records/21939329",
+      "dct:title": "Grammar Substrate (A0)"
+    },
+    {
+      "@id": "https://zenodo.org/records/21939562",
+      "dct:title": "Meaning Substrate (A4)"
+    },
+    {
+      "@id": "https://zenodo.org/records/21938890",
+      "dct:title": "Drift Substrate (A5)"
+    },
+    {
+      "@id": "https://zenodo.org/records/21939121",
+      "dct:title": "Emotional Load Matrix (F2)"
+    },
+    {
+      "@id": "https://zenodo.org/records/21939455",
+      "dct:title": "Honest Systems (B1)"
+    },
+    {
+      "@id": "https://zenodo.org/records/21939671",
+      "dct:title": "Restoration Substrate (A6)"
+    }
+  ],
+
+  "dslo:supplementedBy": {
+    "@id": "https://zenodo.org/records/22181245",
+    "dct:title": "DSLO v0.7 Scientific Overview"
+  },
+
+  "dslo:referencedBy": {
+    "@id": "https://www.tnopsi.com",
+    "dct:title": "TNOPSI Homepage"
+  },
+
+  "dslo:describedBy": {
+    "@id": "https://www.tnopsi.com/dslo-glossary",
+    "dct:title": "TNOPSI Glossary"
+  },
+
+  "dslo:includesGeometrySurfaces": [
+    {
+      "@id": "https://zenodo.org/records/21970123",
+      "dct:title": "DSLO Geometry v0.8 — Federated, Domain, Runtime, Context, Simulation, Identity, Coupling Geometry"
+    },
+    {
+      "@id": "https://zenodo.org/records/22179299",
+      "dct:title": "DSLO Domain Layer v0.8 — 30 Domains, 5 Meta-Classes"
+    },
+    {
+      "@id": "https://zenodo.org/records/22179509",
+      "dct:title": "DSLO Formatting Layer v0.8 — DSLO-Native Surfaces"
+    },
+    {
+      "@id": "https://zenodo.org/records/22179736",
+      "dct:title": "D2.1 — Biological and Ecological Systems"
+    },
+    {
+      "@id": "https://zenodo.org/records/22180014",
+      "dct:title": "D2.2 — Cultural and Cognitive Systems"
+    },
+    {
+      "@id": "https://zenodo.org/records/22180163",
+      "dct:title": "D2.3 — Machine and Engineered Systems"
+    },
+    {
+      "@id": "https://zenodo.org/records/22180328",
+      "dct:title": "D2.4 — Economic and Organizational Systems"
+    },
+    {
+      "@id": "https://zenodo.org/records/22180585",
+      "dct:title": "D2.5 — Abstract and Universal Systems"
+    },
+    {
+      "@id": "https://zenodo.org/records/22180700",
+      "dct:title": "DSLO Domain Surface v0.8 — Domain-Class Geometry Surface"
+    },
+    {
+      "@id": "https://zenodo.org/records/22180818",
+      "dct:title": "DSLO Invariant Surface v0.8 — Invariant Families, Continuity Bands"
+    },
+    {
+      "@id": "https://zenodo.org/records/22180938",
+      "dct:title": "DSLO Mapping Surface v0.8 — Cross-Surface Mapping Geometry"
+    },
+    {
+      "@id": "https://zenodo.org/records/22181076",
+      "dct:title": "DSLO Registry v0.8 — Registry Anchor, Continuity Rules, Invariant Extensions"
+    }
+  ],
+
+  "dslo:forwardCompatibleWith": {
+    "@id": "https://www.tnopsi.com/dslo/v0.9/",
+    "dct:title": "DSLO v0.9 (Substrate-Skin + Umbrella 12)",
+    "dslo:note": "Forward compatibility only. v0.8 does not reference v0.9."
+  },
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+

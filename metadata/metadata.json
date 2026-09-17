@@ -1,0 +1,38 @@
+{
+  "title": "DSLO v0.8 — Federated Geometry Constellation",
+  "version": "0.8",
+
+  "description": "Canonical public-layer release of the DSLO Federated Geometry Constellation, defining federated geometry, domain-class geometry, invariant surfaces, mapping surfaces, registry anchors, formatting surfaces, and the expanded v0.8 glossary. Version 0.8 is strictly additive, geometry-only, invariant-preserving, non-runtime, and non-agentic. It inherits exclusively from DSLO v0.7 substrate and manifold lineage.",
+
+  "license": "other",
+
+  "glossary": "v08_glossary/v08_glossary.json",
+
+  "tags": [
+    "dslo",
+    "federated-geometry",
+    "domain-class-geometry",
+    "invariant-surfaces",
+    "mapping-geometry",
+    "registry-anchors",
+    "formatting-surfaces",
+    "geometry-of-meaning",
+    "substrate-neutral",
+    "lawful-geometry",
+    "collective-thermodynamics"
+  ],
+
+  "authors": [
+    {
+      "name": "Donald Slowicki",
+      "affiliation": "Inda Moment Incorporated"
+    }
+  ],
+
+  "doi": "TO_BE_MINTED",
+
+  "source": "https://github.com/Signal-Ecology/DSLO-v0.8-Federated-Geometry-Constellation",
+
+  "homepage": "https://www.tnopsi.com"
+}
+

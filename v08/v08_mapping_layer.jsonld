@@ -1,0 +1,143 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/mapping-layer",
+  "@type": "dslo:MappingLayer",
+
+  "dslo:version": "0.8",
+  "dct:title": "DSLO Mapping Layer v0.8 — Cross-Surface Mapping Geometry",
+  "dct:identifier": "10.5281/zenodo.22180938",
+
+  "dct:description": "The DSLO v0.8 Mapping Layer defines the lawful cross-surface mapping geometry used to align geometry, domain, invariant, and registry surfaces. Mapping surfaces remain deterministic, invariant-preserving, non-runtime, and non-agentic. This layer inherits exclusively from DSLO v0.7 substrate and manifold lineage.",
+
+  "dslo:inheritsFrom": [
+    "https://zenodo.org/records/21864007",
+    "https://zenodo.org/records/21864226",
+    "https://zenodo.org/records/21864440",
+    "https://zenodo.org/records/21797083",
+    "https://zenodo.org/records/21939329",
+    "https://zenodo.org/records/21939562",
+    "https://zenodo.org/records/21938890",
+    "https://zenodo.org/records/21939121",
+    "https://zenodo.org/records/21939455",
+    "https://zenodo.org/records/21939671"
+  ],
+
+  "dslo:supplementedBy": "https://zenodo.org/records/22181245",
+  "dslo:referencedBy": "https://www.tnopsi.com",
+  "dslo:describedBy": "https://www.tnopsi.com/dslo-glossary",
+
+  "dslo:mappingSurfaces": [
+    {
+      "id": "MS1",
+      "label": "geometry → domain mapping",
+      "description": "Defines lawful mapping between geometry primitives and domain-class envelopes."
+    },
+    {
+      "id": "MS2",
+      "label": "geometry → invariant mapping",
+      "description": "Defines invariant-preserving mapping between geometry curvature envelopes and invariant families."
+    },
+    {
+      "id": "MS3",
+      "label": "geometry → ecology mapping",
+      "description": "Defines lawful mapping between geometry surfaces and thermodynamic ecology geometry."
+    },
+    {
+      "id": "MS4",
+      "label": "geometry → frontier mapping",
+      "description": "Defines mapping geometry for frontier surfaces without introducing runtime behavior."
+    },
+    {
+      "id": "MS5",
+      "label": "geometry → teaching mapping",
+      "description": "Defines lawful mapping between geometry surfaces and teaching vectors."
+    }
+  ],
+
+  "dslo:mappingOperators": [
+    {
+      "operator": "M-GD",
+      "description": "Geometry-to-Domain Mapping Operator",
+      "requirements": [
+        "invariant_preserved",
+        "identity_boundary_clear",
+        "manifold_legal"
+      ]
+    },
+    {
+      "operator": "M-GI",
+      "description": "Geometry-to-Invariant Mapping Operator",
+      "requirements": [
+        "curvature_variance_bounded",
+        "invariant_family_stable"
+      ]
+    },
+    {
+      "operator": "M-GE",
+      "description": "Geometry-to-Ecology Mapping Operator",
+      "requirements": [
+        "ecology_envelope_stable",
+        "drift_channel_lawful"
+      ]
+    },
+    {
+      "operator": "M-GF",
+      "description": "Geometry-to-Frontier Mapping Operator",
+      "requirements": [
+        "frontier_boundary_clear",
+        "mapping_non_runtime"
+      ]
+    },
+    {
+      "operator": "M-GT",
+      "description": "Geometry-to-Teaching Mapping Operator",
+      "requirements": [
+        "teaching_vector_stable",
+        "identity_preserved"
+      ]
+    }
+  ],
+
+  "dslo:mappingRules": [
+    "Mapping surfaces must remain non-runtime and non-agentic.",
+    "Mapping may not modify geometry curvature or domain envelopes.",
+    "All mapping outputs must serialize cleanly into DSLO-native formats.",
+    "Mapping drift may not propagate into ecology or frontier surfaces.",
+    "Mapping must remain descriptive, not predictive.",
+    "All legality envelopes must remain within lawful constraints.",
+    "Mapping surfaces must preserve DOI lineage and geometry invariants."
+  ],
+
+  "dslo:alignmentTargets": [
+    "geometry surfaces",
+    "domain surfaces",
+    "invariant surfaces",
+    "registry surfaces",
+    "teaching surfaces",
+    "ecology geometry"
+  ],
+
+  "dslo:continuityRules": [
+    "v0.8 inherits exclusively from v0.7",
+    "v0.8 is geometry-only",
+    "v0.8 is strictly additive",
+    "v0.8 does not modify substrate",
+    "v0.8 does not introduce physics",
+    "v0.8 does not reference v0.9",
+    "v0.8 does not reference sibling v0.8 artifacts",
+    "v0.8 maintains invariant-preserving vocabulary"
+  ],
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+

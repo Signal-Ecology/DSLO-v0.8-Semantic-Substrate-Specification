@@ -1,0 +1,132 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/surfaces/simulation",
+  "@type": "dslo:GeometrySurface",
+
+  "dslo:version": "0.8",
+  "dct:title": "DSLO v0.8 — Simulation Geometry Surface",
+  "dct:identifier": "10.5281/zenodo.simulation.v0.8.placeholder",
+
+  "dct:description": "The Simulation Geometry Surface defines lawful geometric primitives for simulation curvature, simulation drift channels, simulation stability envelopes, simulation boundary geometry, and simulation coherence fields. This surface is strictly additive, geometry-only, and inherits exclusively from DSLO v0.7 substrate and manifold lineage. Simulation geometry models lawful simulation behavior without introducing execution, prediction, or agentic behavior.",
+
+  "dslo:inheritsFrom": [
+    "10.5281/zenodo.21939329",
+    "10.5281/zenodo.21939562",
+    "10.5281/zenodo.21938890",
+    "10.5281/zenodo.21939121",
+    "10.5281/zenodo.21939455",
+    "10.5281/zenodo.21939671"
+  ],
+
+  "dslo:supplementedBy": "10.5281/zenodo.22181245",
+  "dslo:referencedBy": "https://www.tnopsi.com",
+  "dslo:describedBy": "https://www.tnopsi.com/dslo-glossary",
+
+  "dslo:metaClass": {
+    "id": "SIM0",
+    "label": "Simulation Geometry",
+    "doi": "10.5281/zenodo.simulation.v0.8.placeholder"
+  },
+
+  "dslo:geometryPrimitives": [
+    {
+      "id": "SIM1",
+      "label": "Simulation Curvature Geometry",
+      "description": "Defines lawful curvature envelopes for simulation behavior across drift, collapse, and restoration."
+    },
+    {
+      "id": "SIM2",
+      "label": "Simulation Drift Channels",
+      "description": "Defines drift channels for simulation transitions under load, instability, or environmental change."
+    },
+    {
+      "id": "SIM3",
+      "label": "Simulation Stability Envelopes",
+      "description": "Defines stability envelopes for simulation behavior under load, drift, and systemic pressure."
+    },
+    {
+      "id": "SIM4",
+      "label": "Simulation Boundary Geometry",
+      "description": "Defines lawful boundary structures for simulation transitions and coherence."
+    },
+    {
+      "id": "SIM5",
+      "label": "Simulation Coherence Fields",
+      "description": "Defines coherence fields enabling lawful simulation behavior across multi-domain geometry."
+    }
+  ],
+
+  "dslo:invariantFamilies": [
+    {
+      "id": "IF-SIM1",
+      "label": "Simulation Stability Invariants",
+      "description": "Ensure stability across simulation curvature and drift geometry."
+    },
+    {
+      "id": "IF-SIM2",
+      "label": "Simulation Continuity Invariants",
+      "description": "Ensure continuity across simulation drift channels and stability envelopes."
+    },
+    {
+      "id": "IF-SIM3",
+      "label": "Simulation Preservation Invariants",
+      "description": "Ensure identity and coherence preservation across lawful simulation transitions."
+    }
+  ],
+
+  "dslo:continuityBands": [
+    {
+      "id": "CB-SIM1",
+      "label": "Simulation Continuity Band",
+      "description": "Defines lawful continuity across simulation stability and drift geometry."
+    },
+    {
+      "id": "CB-SIM2",
+      "label": "Simulation Boundary Continuity Band",
+      "description": "Defines continuity across simulation-boundary geometry."
+    }
+  ],
+
+  "dslo:alignmentTargets": [
+    "geometry surfaces",
+    "domain surfaces",
+    "invariant surfaces",
+    "mapping surfaces",
+    "registry surfaces",
+    "ecology geometry",
+    "federated geometry"
+  ],
+
+  "dslo:surfaceRules": [
+    "Surface must remain non-runtime and non-agentic.",
+    "Surface may not modify geometry curvature or domain envelopes.",
+    "Surface must serialize cleanly into DSLO-native formats.",
+    "Surface drift may not propagate into ecology or frontier surfaces.",
+    "Surface must remain descriptive, not predictive.",
+    "Surface must preserve DOI lineage and geometry invariants."
+  ],
+
+  "dslo:continuityRules": [
+    "v0.8 inherits exclusively from v0.7",
+    "v0.8 is geometry-only",
+    "v0.8 is strictly additive",
+    "v0.8 does not modify substrate",
+    "v0.8 does not introduce physics",
+    "v0.8 does not reference v0.9",
+    "v0.8 does not reference sibling v0.8 artifacts",
+    "v0.8 maintains invariant-preserving vocabulary"
+  ],
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+

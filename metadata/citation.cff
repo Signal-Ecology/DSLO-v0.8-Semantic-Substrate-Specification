@@ -1,0 +1,78 @@
+cff-version: 1.2.0
+
+title: "DSLO v0.8 — Federated Geometry Constellation"
+
+message: "If you use this work, please cite it using the metadata below."
+
+type: dataset
+
+authors:
+  - family-names: Slowicki
+    given-names: Donald
+    affiliation: "Inda Moment Incorporated"
+
+abstract: >
+  DSLO v0.8 is the canonical federated geometry expansion of the Semantic
+  Substrate Specification. It introduces federated geometry, domain-class
+  geometry, invariant surfaces, mapping surfaces, registry anchors, and
+  DSLO-native formatting surfaces. Version 0.8 is strictly additive,
+  geometry-only, invariant-preserving, non-runtime, and non-agentic. It
+  inherits exclusively from DSLO v0.7 substrate and manifold lineage. This
+  citation file provides structured metadata for scientific indexing,
+  federated geometry ingestion, and cross-surface archival stability.
+
+version: "0.8"
+
+doi: "TO_BE_MINTED"
+
+url: "https://www.tnopsi.com"
+
+date-released: "2026-09-16"
+
+license: "Other"
+
+references:
+  - type: dataset
+    identifier: 10.5281/zenodo.21864007
+    description: "DSLO v0.7 — Multi‑Manifold Geometry for Human–Machine Thermodynamic Drift."
+
+  - type: dataset
+    identifier: 10.5281/zenodo.21864226
+    description: "DSLO v0.7 — Operations Manual: Substrate-Level Architecture and Documentation Guide."
+
+  - type: dataset
+    identifier: 10.5281/zenodo.21864440
+    description: "DSLO v0.7 — Geometry Examples & Demonstrations."
+
+  - type: dataset
+    identifier: 10.5281/zenodo.21797083
+    description: "DSLO v0.7 — Substrate Manifest."
+
+  - type: dataset
+    identifier: 10.5281/zenodo.21939329
+    description: "DSLO v0.7 — Grammar Substrate (A0)."
+
+  - type: dataset
+    identifier: 10.5281/zenodo.21939562
+    description: "DSLO v0.7 — Meaning Substrate (A4)."
+
+  - type: dataset
+    identifier: 10.5281/zenodo.21938890
+    description: "DSLO v0.7 — Drift Substrate (A5)."
+
+  - type: dataset
+    identifier: 10.5281/zenodo.21939671
+    description: "DSLO v0.7 — Restoration Substrate (A6)."
+
+  - type: dataset
+    identifier: 10.5281/zenodo.21939455
+    description: "DSLO v0.7 — Honest Systems (B1)."
+
+  - type: dataset
+    identifier: 10.5281/zenodo.21939121
+    description: "DSLO v0.7 — Emotional Load Matrix (F2)."
+
+  - type: dataset
+    identifier: 10.5281/zenodo.22181245
+    description: "DSLO v0.7 — Scientific Overview (Public-Layer Anchor)."
+

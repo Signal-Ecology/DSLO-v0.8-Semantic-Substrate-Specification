@@ -1,0 +1,93 @@
+{
+  "name": "DSLO v0.8 — Federated Geometry Constellation",
+  "version": "0.8",
+  "canonical_artifact": "DSLO_v0.8_Federated_Geometry_Constellation.pdf",
+
+  "description": "Manifest describing all surfaces included in the DSLO v0.8 repository. This manifest documents human-authored geometry surfaces, federated geometry layers, invariant surfaces, mapping surfaces, registry anchors, formatting surfaces, metadata, and supporting materials. Folder structure is preserved exactly as present in the GitHub repository.",
+
+  "surfaces": {
+    "geometry_surfaces": {
+      "description": "The twelve DSLO v0.8 geometry surfaces, each a lawful, invariant-preserving, geometry-only extension of the v0.7 substrate.",
+      "folders": [
+        "abstract_universal/",
+        "biological_ecological/",
+        "context/",
+        "coupling/",
+        "cultural_cognitive/",
+        "domain/",
+        "economic_organizational/",
+        "federated/",
+        "identity/",
+        "machine_engineered/",
+        "runtime/",
+        "simulation/"
+      ]
+    },
+
+    "layers": {
+      "description": "Federated geometry layers defining domain-class geometry, invariant families, mapping geometry, formatting surfaces, and registry anchors.",
+      "path": "v08/",
+      "files": [
+        "v08_domain_layer.jsonld",
+        "v08_domain_layer.md",
+        "v08_formatting_layer.jsonld",
+        "v08_formatting_layer.md",
+        "v08_invariant_layer.jsonld",
+        "v08_invariant_layer.md",
+        "v08_mapping_layer.jsonld",
+        "v08_mapping_layer.md",
+        "v08_registry.jsonld"
+      ]
+    },
+
+    "scientific_overview": {
+      "description": "DSLO v0.8 Scientific Overview, providing federated geometry context, lineage, continuity rules, and invariant-preserving vocabulary.",
+      "path": "v08/",
+      "files": [
+        "v08_scientific_overview.jsonld",
+        "v08_scientific_overview.md",
+        "v08_scientific_overview_xmp_a3b.xmp"
+      ]
+    },
+
+    "metadata": {
+      "description": "Metadata surfaces for scientific indexing, citation, and cross-surface alignment.",
+      "path": "metadata/",
+      "files": [
+        "v0.8_citation.cff",
+        "v0.8_manifest.json",
+        "v0.8_metadata.json",
+        "v0.8_LICENSE.md",
+        "v0.8_principles.md",
+        "v0.8_spec.md"
+      ]
+    },
+
+    "continuity": {
+      "description": "Continuity surfaces defining lawful v0.8 inheritance from v0.7.",
+      "path": "v08/",
+      "files": [
+        "continuity_v08.jsonld",
+        "continuity_v08_passthrough.md"
+      ]
+    },
+
+    "collection": {
+      "description": "Collection-level metadata for DOI issuance, dataset aggregation, and scientific indexing.",
+      "path": "v08/",
+      "files": [
+        "v08_DOI_list.md",
+        "v08_collection_datacite.json",
+        "v08_collection_xmp_a3b.xmp"
+      ]
+    },
+
+    "root": {
+      "description": "Top-level repository files.",
+      "files": [
+        "README.md"
+      ]
+    }
+  }
+}
+

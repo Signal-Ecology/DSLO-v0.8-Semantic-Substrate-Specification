@@ -1,0 +1,118 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "schema": "http://schema.org/",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/domain-layer",
+  "@type": "dslo:DomainLayer",
+
+  "dslo:version": "0.8",
+  "dct:title": "DSLO Domain Layer v0.8 — 30 Domains, 5 Meta-Classes",
+  "dct:identifier": "10.5281/zenodo.22179299",
+
+  "dct:description": "The DSLO v0.8 Domain Layer defines the 30-domain, 5-meta-class geometry system used to classify federated thermodynamic behavior across biological, cultural, machine, economic, and abstract systems. This layer inherits exclusively from DSLO v0.7 substrate and manifold lineage and provides invariant-preserving domain geometry for all v0.8 surfaces.",
+
+  "dslo:inheritsFrom": [
+    "https://zenodo.org/records/21864007",
+    "https://zenodo.org/records/21864226",
+    "https://zenodo.org/records/21864440",
+    "https://zenodo.org/records/21797083",
+    "https://zenodo.org/records/21939329",
+    "https://zenodo.org/records/21939562",
+    "https://zenodo.org/records/21938890",
+    "https://zenodo.org/records/21939121",
+    "https://zenodo.org/records/21939455",
+    "https://zenodo.org/records/21939671"
+  ],
+
+  "dslo:supplementedBy": "https://zenodo.org/records/22181245",
+  "dslo:referencedBy": "https://www.tnopsi.com",
+  "dslo:describedBy": "https://www.tnopsi.com/dslo-glossary",
+
+  "dslo:metaClasses": [
+    {
+      "id": "M1",
+      "label": "Biological & Ecological Systems",
+      "doi": "10.5281/zenodo.22179736"
+    },
+    {
+      "id": "M2",
+      "label": "Cultural & Cognitive Systems",
+      "doi": "10.5281/zenodo.22180014"
+    },
+    {
+      "id": "M3",
+      "label": "Machine & Engineered Systems",
+      "doi": "10.5281/zenodo.22180163"
+    },
+    {
+      "id": "M4",
+      "label": "Economic & Organizational Systems",
+      "doi": "10.5281/zenodo.22180328"
+    },
+    {
+      "id": "M5",
+      "label": "Abstract & Universal Systems",
+      "doi": "10.5281/zenodo.22180585"
+    }
+  ],
+
+  "dslo:domains": [
+    { "id": "D1",  "label": "Biological Adaptation Geometry", "metaClass": "M1" },
+    { "id": "D2",  "label": "Ecological Pressure Systems", "metaClass": "M1" },
+    { "id": "D3",  "label": "Physiological Drift Geometry", "metaClass": "M1" },
+    { "id": "D4",  "label": "Behavioral Regulation Fields", "metaClass": "M1" },
+    { "id": "D5",  "label": "Evolutionary Stability Geometry", "metaClass": "M1" },
+
+    { "id": "D6",  "label": "Cultural Drift Geometry", "metaClass": "M2" },
+    { "id": "D7",  "label": "Collective Identity Systems", "metaClass": "M2" },
+    { "id": "D8",  "label": "Cognitive Load Geometry", "metaClass": "M2" },
+    { "id": "D9",  "label": "Meaning Ecology", "metaClass": "M2" },
+    { "id": "D10", "label": "Symbolic Stability Geometry", "metaClass": "M2" },
+
+    { "id": "D11", "label": "Machine Coordination Geometry", "metaClass": "M3" },
+    { "id": "D12", "label": "Engineered Drift Systems", "metaClass": "M3" },
+    { "id": "D13", "label": "Robotic Identity Geometry", "metaClass": "M3" },
+    { "id": "D14", "label": "Autonomy Stability Fields", "metaClass": "M3" },
+    { "id": "D15", "label": "Synthetic Execution Geometry", "metaClass": "M3" },
+
+    { "id": "D16", "label": "Economic Pressure Geometry", "metaClass": "M4" },
+    { "id": "D17", "label": "Organizational Drift Systems", "metaClass": "M4" },
+    { "id": "D18", "label": "Resource Flow Geometry", "metaClass": "M4" },
+    { "id": "D19", "label": "Market Stability Fields", "metaClass": "M4" },
+    { "id": "D20", "label": "Collective Decision Geometry", "metaClass": "M4" },
+
+    { "id": "D21", "label": "Abstract Drift Geometry", "metaClass": "M5" },
+    { "id": "D22", "label": "Universal Stability Fields", "metaClass": "M5" },
+    { "id": "D23", "label": "Invariant Propagation Geometry", "metaClass": "M5" },
+    { "id": "D24", "label": "Symbolic Manifold Geometry", "metaClass": "M5" },
+    { "id": "D25", "label": "Generalized Identity Systems", "metaClass": "M5" },
+
+    { "id": "D26", "label": "Cross-Domain Coupling Geometry", "metaClass": "M5" },
+    { "id": "D27", "label": "Federated Drift Channels", "metaClass": "M5" },
+    { "id": "D28", "label": "Thermodynamic Ecology Geometry", "metaClass": "M5" },
+    { "id": "D29", "label": "Multi-Agent Stability Geometry", "metaClass": "M5" },
+    { "id": "D30", "label": "Collective Meaning Geometry", "metaClass": "M5" }
+  ],
+
+  "dslo:continuityRules": [
+    "v0.8 inherits exclusively from v0.7",
+    "v0.8 is geometry-only",
+    "v0.8 is strictly additive",
+    "v0.8 does not modify substrate",
+    "v0.8 does not introduce physics",
+    "v0.8 does not reference v0.9",
+    "v0.8 does not reference sibling v0.8 artifacts",
+    "v0.8 maintains invariant-preserving vocabulary"
+  ],
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+

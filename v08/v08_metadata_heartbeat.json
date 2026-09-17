@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "dslo": "https://www.tnopsi.com/dslo/schema#",
+    "dct": "http://purl.org/dc/terms/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "schema": "http://schema.org/"
+  },
+
+  "@id": "https://www.tnopsi.com/dslo/v0.8/heartbeat",
+  "@type": "dslo:MetadataHeartbeat",
+
+  "dslo:version": "0.8",
+  "dslo:heartbeatType": "FederatedGeometryHeartbeat",
+  "dslo:cadence": "release-stable",
+  "dslo:legal": true,
+  "dslo:driftDetected": false,
+
+  "dct:description": "The DSLO v0.8 metadata heartbeat provides machine-readable continuity signals for ingestion engines. It declares v0.8 as a geometry-only, strictly additive extension of DSLO v0.7, and enumerates all v0.8 geometry surfaces, registry anchors, and invariant-preserving structures.",
+
+  "dslo:inheritsFrom": [
+    "https://zenodo.org/records/21864007",
+    "https://zenodo.org/records/21864226",
+    "https://zenodo.org/records/21864440",
+    "https://zenodo.org/records/21797083",
+    "https://zenodo.org/records/21939329",
+    "https://zenodo.org/records/21939562",
+    "https://zenodo.org/records/21938890",
+    "https://zenodo.org/records/21939121",
+    "https://zenodo.org/records/21939455",
+    "https://zenodo.org/records/21939671"
+  ],
+
+  "dslo:supplementedBy": "https://zenodo.org/records/22181245",
+  "dslo:referencedBy": "https://www.tnopsi.com",
+  "dslo:describedBy": "https://www.tnopsi.com/dslo-glossary",
+
+  "dslo:geometrySurfaces": [
+    "https://zenodo.org/records/21970123",
+    "https://zenodo.org/records/22179299",
+    "https://zenodo.org/records/22179509",
+    "https://zenodo.org/records/22179736",
+    "https://zenodo.org/records/22180014",
+    "https://zenodo.org/records/22180163",
+    "https://zenodo.org/records/22180328",
+    "https://zenodo.org/records/22180585",
+    "https://zenodo.org/records/22180700",
+    "https://zenodo.org/records/22180818",
+    "https://zenodo.org/records/22180938",
+    "https://zenodo.org/records/22181076"
+  ],
+
+  "dslo:invariantStatus": {
+    "substrateNeutral": true,
+    "invariantPreserving": true,
+    "lawful": true,
+    "nonReconstructible": true,
+    "publicLayerSafe": true
+  },
+
+  "dslo:continuityRules": [
+    "v0.8 inherits exclusively from v0.7",
+    "v0.8 is geometry-only",
+    "v0.8 is strictly additive",
+    "v0.8 does not modify substrate",
+    "v0.8 does not introduce physics",
+    "v0.8 does not reference v0.9",
+    "v0.8 does not reference sibling v0.8 artifacts",
+    "v0.8 maintains invariant-preserving vocabulary"
+  ],
+
+  "dslo:driftMonitor": {
+    "hashStable": true,
+    "registryAligned": true,
+    "manifoldLegal": true
+  },
+
+  "dslo:federationMarkers": {
+    "federatedOperators": true,
+    "federatedRuntime": true,
+    "federatedIdentityGeometry": true,
+    "federatedSimulationGeometry": true,
+    "federatedThermodynamicEcology": true
+  },
+
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "dct:date": "2026-09-16",
+    "schema:creator": "DSLO Discipline — Federated Geometry Working Group"
+  }
+}
+
