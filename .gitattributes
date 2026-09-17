@@ -1,0 +1,23 @@
+# Set default behavior to normalize text files to LF on check-in
+* text=auto eol=lf
+
+# DSLO Native Geometry & Schema Surfaces (Strict LF Text Enforcement)
+*.jsonld text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.xmp_a3b text eol=lf
+*.dot text eol=lf
+*.cff text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Interactive Graph & Visualization Tools
+d3_glossary_v0.8_graph.html text eol=lf
+
+# Protect Binary & Archive Assets from Text Normalization
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.tar.gz binary
+*.zip binary
