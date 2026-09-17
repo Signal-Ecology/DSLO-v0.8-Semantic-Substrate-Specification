@@ -147,7 +147,7 @@ Each of the 12 standalone geometry surface directories enforces the strict **Tri
 
 * **`.jsonld`:** Deterministic, machine-ingestible schema definition.
 * **`.md`:** Human-readable specification and mathematical proof layout.
-* **`.xmp_a3b`:** Immutable metadata packet preserving DataCite DOIs, Shannon-Wiener-Minsky origin invariants, and licensing parameters.
+* **`.xmp_a3b`:** Immutable metadata packet preserving DataCite DOIs and licensing parameters.
 
 ---
 
